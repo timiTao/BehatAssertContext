@@ -12,6 +12,8 @@ BehatAssertContext
 
 Base context that with phpUnit assert functions.
 
+## Suggestion
+
 Suggested to use with [Behat Clipboard](https://github.com/timiTao/BehatClipboard).
 
 ## Installing extension
