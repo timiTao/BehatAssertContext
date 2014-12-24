@@ -37,7 +37,7 @@ class ArrayFeatureContext implements Context, SnippetAcceptingContext
     }
 
     /**
-     * @Then Assert the array :arg1 count :integer elements
+     * @Then Assert the array :arg1 don't count :integer elements
      *
      * @param $haystack
      * @param $expectedCount

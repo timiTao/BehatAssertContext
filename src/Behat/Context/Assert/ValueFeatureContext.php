@@ -68,7 +68,7 @@ class ValueFeatureContext implements Context, SnippetAcceptingContext
     }
 
     /**
-     * @Then Assert the value :arg1 are equals :arg2
+     * @Then Assert the value :arg1 are not equals :arg2
      * @param $actualValue
      * @param $expectedValue
      */
@@ -106,7 +106,7 @@ class ValueFeatureContext implements Context, SnippetAcceptingContext
     }
 
     /**
-     * @Then Assert the value :arg1 is not true
+     * @Then Assert the value :arg1 is not false
      * @param $condition
      */
     public function assertNotFalse($condition)
