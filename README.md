@@ -14,6 +14,30 @@ Base context that with phpUnit assert functions.
 
 Suggested to use with [Behat Clipboard](https://github.com/timiTao/BehatClipboard).
 
+## Installing extension
+
+The easiest way to install is by using [Composer](https://getcomposer.org):
+
+```bash
+$> curl -sS https://getcomposer.org/installer | php
+$> php composer.phar require timitao/behatassertcontext='1.0.*'
+```
+
+or composer.json
+
+    "require": {
+        "timitao/behatassertcontext": "1.0.*"
+    },
+    
+## Contexts
+
+The are separated due functions
+
+* ``Behat\Context\Assert\ArrayFeatureContext``
+* ``Behat\Context\Assert\FileFeatureContext``
+* ``Behat\Context\Assert\JsonFeatureContext``
+* ``Behat\Context\Assert\ValueFeatureContext``
+
 ## Versioning
  
 This repository will follow [Semantic Versioning v2.0.0](http://semver.org/spec/v2.0.0.html).
