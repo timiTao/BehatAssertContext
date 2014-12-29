@@ -40,7 +40,7 @@ class ValueFeatureContext implements Context, SnippetAcceptingContext
     }
 
     /**
-     * @Then Assert the value :arg1 are the same :arg2
+     * @Then Assert the value :arg1 is the same :arg2
      * @param $actualValue
      * @param $expectedValue
      */
@@ -49,12 +49,12 @@ class ValueFeatureContext implements Context, SnippetAcceptingContext
         assertSame(
             $actualValue,
             $expectedValue,
-            sprintf("Assert the value [%s] are the same [%s]: ", $actualValue, $expectedValue)
+            sprintf("Assert the value [%s] is the same [%s]: ", $actualValue, $expectedValue)
         );
     }
 
     /**
-     * @Then Assert the value :arg1 are equals :arg2
+     * @Then Assert the value :arg1 is equal :arg2
      * @param $actualValue
      * @param $expectedValue
      */
@@ -63,12 +63,12 @@ class ValueFeatureContext implements Context, SnippetAcceptingContext
         assertEquals(
             $actualValue,
             $expectedValue,
-            sprintf("Assert the value [%s] are equals [%s]: ", $actualValue, $expectedValue)
+            sprintf("Assert the value [%s] is equal [%s]: ", $actualValue, $expectedValue)
         );
     }
 
     /**
-     * @Then Assert the value :arg1 are not equals :arg2
+     * @Then Assert the value :arg1 is not equal :arg2
      * @param $actualValue
      * @param $expectedValue
      */
@@ -77,7 +77,7 @@ class ValueFeatureContext implements Context, SnippetAcceptingContext
         assertNotEquals(
             $actualValue,
             $expectedValue,
-            sprintf("Assert the value [%s] are not equals [%s]: ", $actualValue, $expectedValue)
+            sprintf("Assert the value [%s] is not equal [%s]: ", $actualValue, $expectedValue)
         );
     }
 
